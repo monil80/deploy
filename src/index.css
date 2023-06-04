@@ -1,0 +1,90 @@
+.stop{
+cursor: default;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius: 10px;
+}
+
+.message {
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: #333;
+}
+
+
+.success {
+  background-color: #4CAF50;
+}
+
+.error {
+  background-color: #f44336;
+}
+
+textarea.noResize {
+    resize: none;
+  }
+
+
+@media (max-width: 320px) {
+  .ip {
+   display: none;
+  }
+.section-header h2:before,
+.section-header h2:after {
+  content: "";
+  width: 10px;
+  height: 2px;
+  background: var(--color-primary);
+  display: inline-block;
+}
+
+.section-header h2 {
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+  color: #2e3135; 
+}
+
+.header .logo img {
+  max-height: 100px;
+  margin-right: 6px;
+  height: 50px; 
+  width: 100px; 
+ 
+}
+
+
+
+
+}
+
+@media (max-width: 450px) {
+  .header .logo img {
+  max-height: 100px;
+  margin-right: 6px;
+  height: 50px; 
+  width: 100px; 
+ 
+}
+}
+
+@media (max-width: 750px) {
+  .header .logo img {
+  max-height: 100px;
+  margin-right: 6px;
+  height: 50px; 
+  width: 100px; 
+ 
+}
+}
+
+  
